@@ -22,3 +22,14 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+#Extra files
+.devcontainer.zip
+.devcontainer/
+.editorconfig
+.gitattributes
+data.json
+database/
+lang/
+old/
+storage/
