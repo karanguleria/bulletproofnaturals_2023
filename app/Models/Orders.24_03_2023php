@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Orders extends Model
+{   
+    protected $table = 'orders'; //name of table which is relate with this model
+    //protected $primary_key='id';
+    use HasFactory;
+}
